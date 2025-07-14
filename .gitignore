@@ -2,3 +2,4 @@ test_scratch.ipynb
 output_column.json
 __pycache__
 pt_venv
+.env
