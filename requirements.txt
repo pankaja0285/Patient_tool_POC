@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+seaborn
+json5
+faiss-cpu
+ipywidgets
+python-dotenv
+google-genai
+streamlit
+streamlit-scrollable-textbox
