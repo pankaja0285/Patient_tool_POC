@@ -24,10 +24,14 @@
 | ---|data|clinical_notes_sample.csv|
 | ---|data|clinical_notes_sample_baseline.csv|
 | ---|data|medical_transcriptions_raw.csv|
+| ---|.env|
 | ---|.gitignore|
 | ---|app.py|
 | ---|pt_scripts.py|
 | ---|requirements.txt|
+
+NOTE: about .env - this file contains the Google api key pertaining to your own account, hence not checked in 
+and is part of .gitignore so it ignores during any add/commit/push, so there's no misuse of PID.
 
 ## Installation
 Update pip
