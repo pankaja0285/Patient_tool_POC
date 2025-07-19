@@ -7,6 +7,8 @@ import warnings
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
+init_google_api_setup()
+
 # Function to apply custom CSS for styling the tab edge
 def set_tab_style():
     # Add custom CSS for styling the tabs

@@ -36,7 +36,11 @@ def init_google_api_setup():
     load_dotenv()
 
     GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
-    genai.configure(api_key=GOOGLE_API_KEY)
+    # # Note: As of Jul , 2025 this line below gives error that no method or attribute 'Configur' available
+    # #       hence had to comment out 
+    # genai.configure(api_key=GOOGLE_API_KEY)
+    # and added the new way to do
+    genai.Client(api_key=GOOGLE_API_KEY)
 
 def show_available_models():
     avl_models = genai.list_models()
